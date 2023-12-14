@@ -51,4 +51,24 @@ for i in range(100):
         agent = random.choice(agents)
     )
     
-  
+    session.add(residence)
+    session.commit()
+    
+for i in range(100):
+    p_city = random.choice(cities)
+    
+    property = CommercialProperty(
+        name = fake.company(),
+        address = fake.address(),
+        city = p_city,
+        area = ar[(((cities.index(p_city)+1)*3)-random.randint(0,2))],
+        type = random.choice(['Warehouse', 'Office']),
+        grade = random.choice(['A', 'B', 'C', 'D']),
+        price_per_sqf = random.randint(400, 1200),
+        agent = random.choice(agents)
+    )
+    
+    session.add(property)
+    session.commit()
+    
+    
