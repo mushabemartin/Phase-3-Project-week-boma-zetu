@@ -1,4 +1,4 @@
-#!/home/albright/.local/share/virtualenvs/property-listings-qbpVMiNd/bin python
+#!/home/eugene/.local/share/virtualenvs/property-listings-qbpVMiNd/bin python
 
 import random, re
 
