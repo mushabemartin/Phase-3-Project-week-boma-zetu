@@ -11,6 +11,50 @@ Features
 
     Owner/Agent Contact Details: Enable users to inquire about a property directly by accessing the contact details of the property owner or listing agent.
 
+Add an Agent:
+python app.py add-agent
+This command will prompt you to enter details for a new agent.
+
+Add a Residential Property:
+python app.py add-residence
+This command allows you to add a new residential property. It will prompt you for property details.
+
+Add a Commercial Property:
+python app.py add-commercial-property
+Similar to the previous command, this allows you to add a new commercial property.
+
+Show All Properties:
+python app.py show-all
+This command displays all the property listings.
+
+Search by Name:
+python app.py search-by-name
+This command prompts you to enter a property name and then searches for listings matching that name.
+
+Search by ID:
+python app.py search-by-id
+This command prompts you to enter a property ID and then searches for a listing with that ID.
+
+Show All Agents:
+python app.py show-agents
+This command displays a list of all agents.
+
+Show All Cities:
+python app.py show-cities
+This command displays all cities that have a property listing.
+
+Show All Areas:
+python app.py show-areas
+This command displays all areas that have a property listing.
+
+Delete a Listing:
+python app.py delete-listing
+This command prompts you to enter a property type, ID, and agent ID to delete a listing.
+
+Remember to replace python with python3 if that's the command you use in your environment. Additionally, follow the prompts for each command to input the required information.nds to use the app
+
+
+
 Setup Requirements
 
     Visual Studio Code: Installation Guide
