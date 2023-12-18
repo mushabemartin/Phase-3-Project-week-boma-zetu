@@ -1,4 +1,4 @@
-#!/home/eugene/.local/share/virtualenvs/property-listings-qbpVMiNd/bin/ python
+
 
 import click
 
